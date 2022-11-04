@@ -16,7 +16,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             ZStack{
-                Color.black.opacity(0.2).ignoresSafeArea()
+                Color.teal.opacity(0.5).ignoresSafeArea()
                 VStack{
                     
                     Text("اختر اللون المفضل لديك")
